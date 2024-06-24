@@ -1,0 +1,360 @@
+*{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1146px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+.header-li{
+    display: inline;
+    list-style: none;
+}
+
+.header-logo{
+    height: 42px;
+    width: 264px;
+}
+
+.header-img{
+    padding: 5px 16px;
+}
+
+.hero-area{
+    display: flex;
+    padding: 66px 0;
+    justify-content: space-between;
+}
+
+.hero-area-back{
+    background-image: url("./img/hero-area.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-area-img{
+    width: 328px;
+    height: 588px;
+    margin-left: 40px;
+}
+
+.hero-area h3{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 5px;
+    margin:0 16px;
+}
+
+.hero-area h1{
+    font-weight: 700;
+    font-size: 99px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 16px;
+}
+
+.hero-area h2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #fff;
+    padding-left: 16px;
+    margin-bottom: 27px;
+    margin-top: 40px;
+}
+
+.hero-area button{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #ff4948;
+    background-color: #fff;;
+    border-radius: 62px;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 98px;
+    margin-top: 27px;
+}
+
+.hero-area-button{
+    margin-left: 16px;
+}
+
+.hero-area-discription{
+    margin-left: 40px;
+}
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.feature h2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #180202;
+    width: 489.02px;
+    margin-bottom: 60px;
+}
+
+.feature-discription h3{
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 140%;
+    color: #180202;
+    margin-left: 10px;
+}
+
+.feature-discription h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ff4948;
+    margin-left: 10px;
+}
+
+.feature-discription h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #180202;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
+.feature-discription{
+    margin-bottom: 20px;
+    display: flex;
+    /*justify-content: space-between;*/
+    /*margin-bottom: 70px;*/
+}
+
+.feature-discription img{
+     width: 75px;
+     height: 75px;
+ }
+
+.similar-products{
+    margin-top: 70px;
+}
+
+
+.similar-products h2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    color: #180202;
+}
+
+.similar-products h4{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    color: #180202;
+    width: 264px;
+}
+
+.similar-products-table{
+    display: flex;
+    margin-top: 61px;
+    justify-content: space-between;
+}
+
+.similar-products-discription{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.price-list{
+    background-color: rgba(251, 211, 212, 0.6);
+    border-radius: 20px;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    padding: 54px 111px;
+    width: fit-content;
+}
+
+.price-list h2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    color: #180202;
+    margin-top: 13px;
+}
+
+.price-list h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #180202;
+    opacity: 0.7;
+}
+
+.price-list-input{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 532px;
+    margin-top: 42px;
+    border: none;
+}
+
+.price-list-input input{
+    border-radius: 73px;
+    padding: 15px 30px;
+    width: 532px;
+    height: 61px;
+    background: #fff;
+    border: none;
+}
+
+.price-list-input button{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    border-radius: 50px;
+    padding: 15px 30px;
+    width: 165px;
+    height: 61px;
+    background: #ec2128;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #fff;
+    border: none;
+}
+
+.footer{
+    background: #f48285;
+    padding: 60px 0;
+    margin-top: 90px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav a{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #fff;
+    margin-left: 32px;
+}
+
+.footer-content button{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #ff4948;
+    border-radius: 62px;
+    padding: 15px 30px;
+    border: none;
+    width: 264px;
+    height: 69px;
+}
+
+.footer-content img{
+    width: 285px;
+    height: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {color: #ff4948;}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+
+/*Подробнее о фиче*/
+.detailed {
+    position: relative;
+    display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.detailed-content {
+    display: none;
+    position: absolute;
+    top: 30px;
+    background-color: white;
+    min-width: 360px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.detailed-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.detailed-content a:hover {color: #ff4948;}
+
+/* Показать выпадающее меню при наведении курсора */
+.detailed:hover .detailed-content {display: block;}
